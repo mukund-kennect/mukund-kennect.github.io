@@ -1,0 +1,77 @@
+.sub-container1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 8% auto;
+}
+.sub-container2,
+.sub-container3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 40px;
+  height: 260px;
+  width: 260px;
+}
+
+.sub-container4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7,
+.item8,
+.item9,
+.item10,
+.item11,
+.item12 {
+  height: 100px;
+  width: 100px;
+}
+.item1 {
+  background-color: blue;
+}
+.item2 {
+  background-color: salmon;
+}
+.item3 {
+  background-color: palevioletred;
+}
+.item4 {
+  background-color: cyan;
+}
+.item5 {
+  background-color: darkred;
+}
+.item6 {
+  background-color: rgb(110, 59, 7);
+}
+.item7 {
+  background-color: rgb(255, 18, 117);
+}
+
+.item8 {
+  background-color: hsl(16, 92%, 46%);
+}
+.item9 {
+  background-color: orange;
+}
+.item10 {
+  background-color: rgb(1, 1, 94);
+}
+.item11 {
+  background-color: yellow;
+}
+.item12 {
+  background-color: red;
+}
